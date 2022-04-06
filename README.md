@@ -38,6 +38,17 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 
 
 
+### Prerequisites
+
+1. Our software is developed and tested in Ubuntu 16.04(ROS Kinetic) and 18.04(ROS Melodic). Follow the documents to install [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) or [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) according to your Ubuntu version.
+   
+2. We use [**NLopt**](https://nlopt.readthedocs.io/en/latest/NLopt_Installation) to solve the non-linear optimization problem. The __uav_simulator__ depends on the C++ linear algebra library __Armadillo__. The two dependencies can be installed by the following command, in which `${ROS_VERSION_NAME}` is the name of your ROS release.
+``` 
+sudo apt-get install libarmadillo-dev ros-${ROS_VERSION_NAME}-nlopt
+```
+
+
+
 
 ## Table of Contents
 
